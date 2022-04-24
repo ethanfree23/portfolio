@@ -1,17 +1,13 @@
-import { useState, useEffect } from "react";
+import './App.scss';
+import NavBar from './Components/NavBar.js'
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  useEffect(() => {
-    fetch("/hello")
-      .then((r) => r.json())
-      .then((data) => setCount(data.count));
-  }, []);
-
   return (
-    <div className="App">
-      <h1>Page Count: {count}</h1>
+    <div className='App'>
+      <div className='sidebar'></div>
+      <div className='main-content'>
+        <NavBar />
+      </div>
     </div>
   );
 }
