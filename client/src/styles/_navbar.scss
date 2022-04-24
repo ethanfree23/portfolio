@@ -1,0 +1,11 @@
+.NavBar {
+    height: 100vh;
+
+    .nav {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
