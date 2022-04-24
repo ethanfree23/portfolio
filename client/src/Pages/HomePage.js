@@ -1,3 +1,5 @@
+import '../styles/_homepage.scss'
+
 import React from 'react'
 import { faLinkedin, faGithub, faMedium, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
