@@ -1,4 +1,7 @@
 import React from 'react'
+import { faLinkedin, faGithub, faMedium, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-router-dom'
 
 function HomePage() {
     return (
@@ -14,7 +17,18 @@ function HomePage() {
                     random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff.
                 </p>
                 <div className="icons">
-
+                    <Link className="icon-holder" >
+                        <FontAwesomeIcon icon={faLinkedin} className="icon li" />
+                    </Link> <br />
+                    <Link to="test" className="icon-holder">
+                        <FontAwesomeIcon icon={faGithub} className="icon gh" />
+                    </Link>
+                    <Link className="icon-holder" >
+                        <FontAwesomeIcon icon={faMedium} className="icon md" />
+                    </Link><br />
+                    <Link className="icon-holder" >
+                        <FontAwesomeIcon icon={faYoutube} className="icon yt" />
+                    </Link>
                 </div>
             </header>
 
@@ -22,4 +36,4 @@ function HomePage() {
     )
 }
 
-export default HomePage
+export default HomePage;
