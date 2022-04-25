@@ -1,5 +1,5 @@
-.ServicesSection{
-    .service{
+.ServicesSection {
+    .service {
         width: 95%;
         background-color: #191D2B;
         border-left: 1px solid #2e344e;
@@ -7,27 +7,32 @@
         border-bottom: 1px solid #2e344e;
         border-top: 8px solid #2e344e;
         transition: all .4s ease-in-out;
-        .service-img{
+
+        .service-img {
             width: 30rem;
             height: 20rem;
         }
-        @media screen and (max-width:1400px){
+
+        @media screen and (max-width:1400px) {
             width: 100%;
             margin-bottom: 1rem;
         }
-        &:hover{
+
+        &:hover {
             border-top: 8px solid #037FFF;
         }
-        
-        .service-content{
+
+        .service-content {
             padding: 1rem;
-            .s-title{
+
+            .s-title {
                 font-size: 1.6rem;
                 font-weight: 500;
                 position: relative;
                 padding-bottom: 1rem;
                 margin: 1rem 0;
-                &::after{
+
+                &::after {
                     content: "";
                     position: absolute;
                     bottom: 0;
@@ -41,11 +46,12 @@
     }
 }
 
-.servives-container{
+.servives-container {
     display: flex;
     justify-content: space-between;
     margin-top: 4rem;
-    @media screen and (max-width:1400px){
+
+    @media screen and (max-width:1400px) {
         flex-direction: column;
         margin-bottom: 2rem;
     }
