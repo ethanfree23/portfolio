@@ -4,7 +4,11 @@ import React from 'react'
 
 function PortfolioPage() {
   return (
-    <div>PortfolioPage</div>
+    <div>
+      <h1>
+        portfolio Page
+      </h1>
+    </div>
   )
 }
 

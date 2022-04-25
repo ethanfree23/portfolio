@@ -1,11 +1,13 @@
 import './App.scss';
+
+import { Switch, Route } from 'react-router-dom'
+
 import NavBar from './Components/NavBar.js'
 import HomePage from './Pages/HomePage.js'
 import AboutPage from './Pages/AboutPage.js'
 import PortfolioPage from './Pages/PortfolioPage.js'
 import BlogsPage from './Pages/BlogsPage.js'
 import ContactPage from './Pages/ContactPage.js'
-import { Switch, Route } from 'react-router-dom'
 
 function App() {
   return (
