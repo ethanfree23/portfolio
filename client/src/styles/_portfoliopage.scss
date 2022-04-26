@@ -1,6 +1,6 @@
 .PortfolioPage {}
 
-.portfolis {
+.portfolios {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -70,7 +70,7 @@
 
             &:hover {
                 .hover-items {
-                    transition: all .5s ease-in-out .2s;
+                    transition: all .2s ease-in-out .2s;
                     visibility: visible;
                     top: 50%;
                 }

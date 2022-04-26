@@ -1,22 +1,29 @@
 .BlogsPage {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
+    grid-gap: 2.5rem;
+
+    @media screen and (max-width: 1080px) {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2rem;
+    }
 
     .blog {
         background-color: #161925;
         width: 100%;
         padding: 1rem;
         overflow: hidden;
-        padding-bottom: 2rem;
 
         .blog-content {
+            overflow: hidden;
+            padding-bottom: 2rem;
+
             img {
                 width: 100%;
                 transition: all .2s ease-in-out;
 
                 &:hover {
-                    transform: scale(1.05)
+                    transform: scale(1.1);
                 }
 
                 padding-bottom: 2rem;
@@ -38,6 +45,6 @@
     }
 }
 
-.b-title{
+.b-title {
     margin-bottom: 4rem;
 }

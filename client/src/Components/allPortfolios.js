@@ -1,5 +1,5 @@
 import port1 from '../img/portfolio.jpeg'
-import port2 from '../img/instagram.png'
+import port2 from '../img/instagram.webp'
 import port3 from '../img/FAC.JPG'
 import port4 from '../img/huboem.jpeg'
 
@@ -36,7 +36,7 @@ const portfolios = [
     },
     {
         id: 3,
-        category: 'Full-Stack',
+        category: 'Front End',
         link1: 'www.youtube.com',
         link2: 'www.github.com',
         icon1: 'Y',

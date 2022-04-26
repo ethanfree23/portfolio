@@ -7,7 +7,7 @@ function MenuItems({ menuItem }) {
                 menuItem.map((item) => {
                     return <div className="portfolio" key={item.id}>
                         <div className="image-data">
-                            <img className="portfolio-images" src={item.image} alt="" />
+                            <img src={item.image} alt="" />
                             <ul className="hover-items">
                                 <li>
                                     <a href={item.link1}>{item.icon1}</a>

@@ -1,35 +1,39 @@
-.Title{
+.Title {
     text-transform: uppercase;
     font-size: 2rem;
     color: white;
     position: relative;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     letter-spacing: 3px;
-    &::before{
-        content: " ";
+
+    &::before {
+        content: "";
         bottom: 0;
         position: absolute;
         left: 0;
         background-color: #0381ff38;
-        width: 9rem;
+        width: 6rem;
         height: .4rem;
         border-radius: 50px;
+
     }
-    &::after{
-        content: " ";
+
+    &::after {
+        content: "";
         bottom: 0;
         position: absolute;
         left: 0;
         background-color: #037FFF;
-        width: 4.5rem;
-        height: .3rem;
+        width: 3rem;
+        height: .4rem;
         border-radius: 50px;
     }
+
     span {
         position: absolute;
         top: 15%;
-        left: 0%;
+        left: 0;
         font-size: 5rem;
-        opacity: 0.15;
+        opacity: 0.07;
     }
 }
