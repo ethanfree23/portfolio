@@ -1,14 +1,14 @@
 import React from 'react'
 import avatar from '../img/Headshot.JPG';
-import {NavLink} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function Navbar() {
     return (
         <div className="NavBar">
             <nav className="nav">
                 <div className="profile">
-                    <img src={avatar} alt=""/>
-                 </div>
+                    <img src={avatar} alt="" />
+                </div>
 
                 <ul className="nav-items">
                     <li className="nav-item">
@@ -40,11 +40,11 @@ function Navbar() {
 
                 <footer className="footer">
                     <p>
-                        @2022 copywrizzight
+                        @2022 Copyrizght
                     </p>
-            </footer>
+                </footer>
             </nav>
-            
+
         </div>
     )
 }

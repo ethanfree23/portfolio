@@ -13,7 +13,7 @@ function AboutPage() {
       <Title title={'About Me'} span={'About Me'} />
       <ImageSection />
       <Title title={'My Skills'} span={'My Skills'} />
-      <div className="skills-container">
+      <div className="skillsContainer">
         <SkillsSection skill={'Javascript'} progress={'50%'} width={'50%'} />
         <SkillsSection skill={'React'} progress={'60%'} width={'60%'} />
         <SkillsSection skill={'Redux'} progress={'20%'} width={'20%'} />
@@ -27,6 +27,7 @@ function AboutPage() {
         <SkillsSection skill={'Heroku'} progress={'20%'} width={'20%'} />
         <SkillsSection skill={'Sinatra'} progress={'10%'} width={'10%'} />
       </div>
+      <Title title={'Services'} span={'Services'} />
       <div className="services-container">
         <ServicesSection image={design}/>
         <ServicesSection image={design}/>

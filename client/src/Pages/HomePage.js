@@ -8,13 +8,14 @@ function HomePage() {
         <div className="HomePage">
             <header className="hero">
                 <h1 className="hero-text">
-                    Wuz up
-                    <span> bitchezzz</span>
+                    Ethan Freeman =
+                    <br /><span> (Software + Sales)Engineerⁿ</span>
                 </h1>
                 <p className="h-sub-text">
-                    random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff.
-                    random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff.
-                    random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff. random stuff.
+                    Welcome to my portfolio website - I appreciate you taking time to see what I am about!<br />
+                    <strong>Currently:</strong> I am seeking employment as a Sales Engineer - I love helping clients transition from prospects to life-long customers.<br />
+                    <strong>Previously: </strong> Software Sales Engineer (HubOEM) & Surgical Sales Engineer (NuVasive & DePuy Synthes) <br/> Leveled up - sales engineering, product demos, customer service, onboarding, & troubleshooting.<br />
+                    <strong>Next:</strong> Help enterprise customers utilize their software to the highest capability.
                 </p>
                 <div className="icons">
                     <Link className="icon-holder" >
