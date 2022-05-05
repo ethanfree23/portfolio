@@ -1,6 +1,6 @@
 import './App.scss';
 
-import { Switch, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { useState } from 'react';
 
 import NavBar from './Components/NavBar.js'
@@ -29,23 +29,19 @@ function App() {
       </div>
       <div className='main-content'>
         <div className="content">
-          <Switch>
-            <Route path="/" exact>
-              <HomePage />
-            </Route>
-            <Route path="/about" exact>
-              <AboutPage />
-            </Route>
-            <Route path="/portfolio" exact>
-              <PortfolioPage />
-            </Route>
-            <Route path="/blogs" exact>
-              <BlogsPage />
-            </Route>
-            <Route path="/contact" exact>
-              <ContactPage />
-            </Route>
-          </Switch>
+          <Routes>
+
+            <Route path="/" element={<HomePage />} />
+
+            <Route path="/about" element={<AboutPage />} />
+
+            <Route path="/portfolio" element={<PortfolioPage />} />
+
+            <Route path="/blogs" element={<BlogsPage />} />
+
+            <Route path="/contact" element={<ContactPage />} />
+
+          </Routes>
         </div>
       </div>
     </div>
