@@ -18,7 +18,7 @@ function HomePage() {
                     <strong>Next:</strong> Help enterprise customers utilize their software to the highest capability.
                 </p>
                 <div className="icons">
-                    <Link className="icon-holder" >
+                    {/* <Link className="icon-holder" >
                         <FontAwesomeIcon icon={faLinkedin} className="icon li" />
                     </Link> <br />
                     <Link to="test" className="icon-holder">
@@ -29,7 +29,7 @@ function HomePage() {
                     </Link><br />
                     <Link className="icon-holder" >
                         <FontAwesomeIcon icon={faYoutube} className="icon yt" />
-                    </Link>
+                    </Link> */}
                 </div>
             </header>
 
