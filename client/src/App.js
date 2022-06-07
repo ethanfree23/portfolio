@@ -1,6 +1,7 @@
 import './App.scss';
 
-import { Router, Route } from 'react-router-dom'
+import React from 'react';
+import { Routes, Route } from 'react-router-dom'
 import { useState } from 'react';
 
 import NavBar from './Components/NavBar.js'
@@ -29,7 +30,7 @@ function App() {
       </div>
       <div className='main-content'>
         <div className="content">
-          <Router>
+          <Routes>
 
             <Route path="/" element={<HomePage />} />
 
@@ -41,7 +42,7 @@ function App() {
 
             <Route path="/contact" element={<ContactPage />} />
 
-          </Router>
+          </Routes>
         </div> 
       </div>
     </div>
